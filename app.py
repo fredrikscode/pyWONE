@@ -35,3 +35,10 @@ class Get:
         r = self.session.get(url)
         data = r.json()
         return data
+
+    # Retrieves the device count (Total, Security, Ownership, Platforms, Enrollmentstatus)
+    def DeployedDevices(self):
+        url = self.apiurl + "/mdm/devices/devicecountinfo"
+        r = self.session.get(url)
+        data = r.json()
+        return data
