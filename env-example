@@ -1,0 +1,3 @@
+api_key = ""
+basic_auth = "" # Base64 encoded string of username:password (Suggest setting up a separate admin account that only has access to the API)
+base_url = "https://YOURSERVER.awmdm.com/API"
